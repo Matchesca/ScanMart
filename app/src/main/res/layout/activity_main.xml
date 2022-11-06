@@ -59,7 +59,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/loginbtn"
         android:layout_width="167dp"
         android:layout_height="wrap_content"
@@ -71,7 +71,8 @@
         android:layout_marginBottom="20dp"
         android:text="Login"
         android:gravity="center"
-        android:background="@color/white"/>
+        android:background="@color/white"
+        />
 
     <ImageView
         android:id="@+id/imageView"
